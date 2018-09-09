@@ -805,3 +805,19 @@ input {
   width: 100px;
   height: 100px;
 }
+
+.support ul li {
+  display: inline-block;
+}
+#fb {
+  margin-left: -15px;
+}
+
+.support i {
+  font-size: 25px;
+  margin-left: 15px;
+}
+
+.support i:hover {
+  color: #f89722;
+}
