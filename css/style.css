@@ -776,3 +776,7 @@ span, a, a:hover {
 .products-margin {
   margin-bottom: 10em;
 }
+
+input {
+  outline: none;
+}
