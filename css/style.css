@@ -1,13 +1,8 @@
-/*=========================/ */
+/*======================
+Main Color: #47b76f 
+Main Font: Poppins, Muli 
+=======================*/
 
-Main Color: #47b76f Main Font: Poppins, Muli /==========================*/
-/*=========================/
-css index
-==========================/
-1) Basic
-2)
-3)
-========================*/
 
 /*======================/
 	  Page-1 Basic
@@ -205,6 +200,17 @@ span, a, a:hover {
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #47b76f;
+}
+
+#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: #ffd87b url('../img/loader.gif') no-repeat center center;
 }
 
 /*===Navigation Bar=======*/
@@ -570,6 +576,8 @@ span, a, a:hover {
 
 .clients .owl-carousel .item img {
   width: 56%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 #microsoft-logo {

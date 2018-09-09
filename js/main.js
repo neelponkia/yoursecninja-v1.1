@@ -162,3 +162,7 @@ $('.special-icon').on('click', function () {
 });
 
 });
+
+ $(window).on('load', function () {
+    $('#preloader').fadeOut();
+ });
