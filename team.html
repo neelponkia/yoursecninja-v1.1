@@ -20,7 +20,6 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis:300,600,700" rel="stylesheet">
 
     <!-- Plugins -->
-    <link rel="stylesheet" href="css/plugins.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
 
     <!-- Core Style Css -->
@@ -69,11 +68,6 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropbtn" href="products.html">Products</a>
-                        <div class="dropdown-content">
-                            <a href="products.html">Pentesting Services </a>
-                            <a href="products.html">Audit Review & Assessment</a>
-                            <a href="products.html">Special Services</a>
-                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link smooth-nav" href="index.html">Contact</a>
@@ -84,6 +78,7 @@
     </nav>
 
     <!-- Navigationbar Ends here -->
+
 
 
     <!-- Header Starts Here -->
@@ -107,103 +102,241 @@
 
     <!-- Produts-into Ends here -->
 
-    <section>
-        <div class="container products-margin">
-            <div class="row text-center">
-                <div class="col-lg-2 col-sm-2 icon-set pentest-icon">
-                    <div class="team-card">
-                        <img src="img/team/sappi.jpg">
-                    </div>
-                    <span class="active-icon">Ranjeet Singh</span>
-                </div>
 
-                <div class="col-lg-2 col-sm-2 icon-set pentest-icon">
-                    <div class="team-card">
-                        <img src="img/team/vishal.jpg">
-                    </div>
-                    <span class="active-icon">Vishal Panchani</span>
-                </div>
 
-                <div class="col-lg-2 col-sm-2 icon-set pentest-icon">
-                    <div class="team-card">
-                        <img src="img/team/jenish.jpg">
+    <section class="team-section new-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="item" style="cursor:pointer">
+                        <div class="team-img" data-toggle="modal" data-target="#sappi">
+                            <img src="img/team/sappi.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <div>
+                                <h6>Ranjeet Singh</h6>
+                                <span>Security Engineer</span><br>
+                            </div>
+                        </div>
                     </div>
-                    <span class="active-icon">Jenish Sojitra</span>
                 </div>
-
-                <div class="col-lg-2 col-sm-2 icon-set pentest-icon">
-                    <div class="team-card">
-                        <img src="img/team/shubham.jpg">
+                <div class="col-md-4">
+                    <div class="item" style="cursor:pointer">
+                        <div class="team-img" data-toggle="modal" data-target="#vishal">
+                            <img src="img/team/vishal.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <div>
+                                <h6>Vishal Panchani</h6>
+                                <span>Security Engineer</span>
+                            </div>
+                        </div>
                     </div>
-                    <span class="active-icon">Shubham Vadhadiya</span>
                 </div>
-
-                <div class="col-lg-2 col-sm-2 icon-set pentest-icon">
-                    <div class="team-card">
-                        <img src="img/team/mukul.jpg">
+                <div class="col-md-4">
+                    <div class="item" style="cursor:pointer">
+                        <div class="team-img" data-toggle="modal" data-target="#jenish">
+                            <img src="img/team/jenish.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <div>
+                                <h6>Jenish Sojitra</h6>
+                                <span>Security Engineer</span>
+                            </div>
+                        </div>
                     </div>
-                    <span class="active-icon">Mukul Malaviya</span>
-                </div>
-                <div class="col-lg-2 col-sm-2 icon-set pentest-icon">
-                    <div class="team-card">
-                        <img src="img/team/neel.jpg">
-                    </div>
-                    <span class="active-icon">Neel Ponkia</span>
-                </div>
-
-            </div>
-            <hr>
-            <!-- <div id="pentest" class="row ml-20 mt-60 product-info-ml">
-                <div class="col-lg-5 col-sm-12 product-info">
-                    <p>
-                        A Vulnerability Assessment involves the identification of potential vulnerabilities in systems
-                        and applications
-                        using both automated tools and manual testing.
-                    </p>
-                </div>
-                <div class="col-lg-5 col-sm-12 product-items">
-                    <ul>
-                        <li>Web Application Pentesting</li>
-                        <li>Mobile Application Pentesting (Android + IOS)</li>
-                        <li>Blockchain Security</li>
-                        <li>CMS Security</li>
-                        <li>Network Pentesting</li>
-                        <li>Cloud Application Pentesting</li>
-                        <li>IoT Device Pentesting</li>
-                    </ul>
                 </div>
             </div>
-            <div id="audit" class="row ml-20 mt-60 product-info-ml">
-                <div class="col-lg-5 col-sm-12 product-info" style="display: inline-block;">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="item" style="cursor:pointer">
+                        <div class="team-img" data-toggle="modal" data-target="#mukul">
+                            <img src="img/team/mukul.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <div>
+                                <h6>Mukul Malaviya</h6>
+                                <span>Software Security Engineer</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-5 col-sm-12 product-items" style="display: inline-block;">
-                    <ul>
-                        <li>Source Code Audit Service</li>
-                        <li>Database Audit Service</li>
-                        <li>Webservice Assessment & Monitoring</li>
-                    </ul>
+                <div class="col-md-4">
+                    <div class="item" style="cursor:pointer">
+                        <div class="team-img" data-toggle="modal" data-target="#shubham">
+                            <img src="img/team/shubham.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <div>
+                                <h6>Shubham Vadhadiya</h6>
+                                <span>Web Security Engineer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item" style="cursor:pointer">
+                        <div class="team-img" data-toggle="modal" data-target="#neel">
+                            <img src="img/team/neel.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <div>
+                                <h6>Neel Ponkia</h6>
+                                <span>Software Engineer</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div id="special" class="row ml-20 mt-60 product-info-ml">
-                <div class="col-lg-5 col-sm-12 product-info" style="display: inline-block;">
-                    <p>
-                        Apart of our awesome services we also rovide some special services, here they are take a look.
-                    </p>
-                </div>
-                <div class="col-lg-5 col-sm-12 product-items" style="display: inline-block;">
-                    <ul>
-                        <li>Red Teaming</li>
-                        <li>Triage Team For Bug Bounty Programs</li>
-                        <li>Personal Visit To Company's HQ</li>
-                    </ul>
-                </div>
-            </div> -->
         </div>
     </section>
+
+
+    <!-- Sappi Model -->
+
+    <div class="modal fade" id="sappi" tabindex="-1" role="dialog" aria-labelledby="sappiLabel" aria-hidden="true" style="border-radius: 5px">
+      <div class="modal-dialog" role="document" style="max-width: 700px">
+        <div class="modal-content model-back container" >
+          <div class="row profile-card">
+              <div class="col-md-12 back-img text-center" style="background: url(img/bg2.jpg);">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true" style="color: #fff;font-size: 2em;" >&times;</span>
+                    </button>
+                  <div class="model-wrapper">
+                    <h6>Ranjeet Singh</h6>
+                    <p>More than 3 years of experience in bug bounty and <b>helped 100+ business</b> to secure their services. One of <b> top bug hunter/hacker</b> on Hackerone platfor. </p>
+                    <div class="model-contact">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Vishal Model -->
+
+    <div class="modal fade" id="vishal" tabindex="-1" role="dialog" aria-labelledby="vishalLabel" aria-hidden="true" style="border-radius: 5px">
+      <div class="modal-dialog" role="document" style="max-width: 700px">
+        <div class="modal-content model-back container" >
+          <div class="row profile-card">
+              <div class="col-md-12 back-img text-center" style="background: url(img/bg2.jpg);">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true" style="color: #fff;font-size: 2em;" >&times;</span>
+                    </button>
+                  <div class="model-wrapper">
+                    <h6>Vishal Panchani</h6>
+                    <p>As a Security engineer at (Previous employee at  CGI)  focuses on web application and network security. Vishal acts as a liaison between customers and  product teams, providing a hands-on, real-world perspective. <b> worked with 100+ companies to fix issues.</b> Top tier researcher in hackerone bug bounty hunter <b> (hackerone.com/gujjuboy10x00)</b></p>
+                    <div class="model-contact">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Jenish Model -->
+
+    <div class="modal fade" id="jenish" tabindex="-1" role="dialog" aria-labelledby="jenishLabel" aria-hidden="true" style="border-radius: 5px">
+      <div class="modal-dialog" role="document" style="max-width: 700px">
+        <div class="modal-content model-back container" >
+          <div class="row profile-card">
+              <div class="col-md-12 back-img text-center" style="background: url(img/bg2.jpg);">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true" style="color: #fff;font-size: 2em;" >&times;</span>
+                    </button>
+                  <div class="model-wrapper">
+                    <h6>Jenish Sojitra</h6>
+                    <p>Top tier researcher from <b>PayPal enterprise , Facebook & Google wall of fame</b> ,Worked with 35+ companies to fix issues.</p>
+                    <div class="model-contact">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mukul Model -->
+
+    <div class="modal fade" id="mukul" tabindex="-1" role="dialog" aria-labelledby="mukulLabel" aria-hidden="true" style="border-radius: 5px">
+      <div class="modal-dialog" role="document" style="max-width: 700px">
+        <div class="modal-content model-back container" >
+          <div class="row profile-card">
+              <div class="col-md-12 back-img text-center" style="background: url(img/bg2.jpg);">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true" style="color: #fff;font-size: 2em;" >&times;</span>
+                    </button>
+                  <div class="model-wrapper">
+                    <h6>Mukul Malaviya</h6>
+                    <p>More than 3 years of experience in bug bounty and <b>helped 100+ business</b> to secure their services. One of <b> top bug hunter/hacker</b> on Hackerone platfor. </p>
+                    <div class="model-contact">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Shubham Model -->
+
+    <div class="modal fade" id="shubham" tabindex="-1" role="dialog" aria-labelledby="shubhamLabel" aria-hidden="true" style="border-radius: 5px">
+      <div class="modal-dialog" role="document" style="max-width: 700px">
+        <div class="modal-content model-back container" >
+          <div class="row profile-card">
+              <div class="col-md-12 back-img text-center" style="background: url(img/bg2.jpg);">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true" style="color: #fff;font-size: 2em;" >&times;</span>
+                    </button>
+                  <div class="model-wrapper">
+                    <h6>Shubham Vadhadiya</h6>
+                    <p>More than 3 years of experience in bug bounty and <b>helped 100+ business</b> to secure their services. One of <b> top bug hunter/hacker</b> on Hackerone platfor. </p>
+                    <div class="model-contact">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Neel Model -->
+
+    <div class="modal fade" id="neel" tabindex="-1" role="dialog" aria-labelledby="neelLabel" aria-hidden="true" style="border-radius: 5px">
+      <div class="modal-dialog" role="document" style="max-width: 700px">
+        <div class="modal-content model-back container" >
+          <div class="row profile-card">
+              <div class="col-md-12 back-img text-center" style="background: url(img/bg2.jpg);">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true" style="color: #fff;font-size: 2em;" >&times;</span>
+                    </button>
+                  <div class="model-wrapper">
+                    <h6>Neel Ponkia</h6>
+                    <p>Experianced UX/UI developer, coder and designer.</p>
+                    <div class="model-contact">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <!-- Footer Starts Here -->
 
     <footer class="footer">
@@ -221,7 +354,7 @@
                 <a href="#"><i id="fb" class="fab fa-facebook-square"></i></a>
                 <a href="#"><i id="tw" class="fab fa-twitter-square"></i></a>
             </div>
-            <div class="col-md-4" style="text-align: right;color: #f89722">
+            <div class="col-md-4 support-email" style="text-align: right;color: #f89722">
                 <a href="mailto:support@yoursecninja.com">support@yoursecninja.com</a><br>
                 <a href="tel:+91 635 457 4440">+91 635 457 4440</a>
             </div>

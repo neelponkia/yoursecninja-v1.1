@@ -25,11 +25,13 @@ $(function() {
 
             navbar.addClass("navbar-scrolled");
             logo.attr('src', 'img/ninja-dark.png');
+            $('.navbar-toggler').addClass('toggle-white');
 
         }else{
 
             navbar.removeClass("navbar-scrolled");
             logo.attr('src', 'img/ninja-light.png');
+            $('.navbar-toggler').removeClass('toggle-white');
         }
     });
 

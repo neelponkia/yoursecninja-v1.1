@@ -3,6 +3,12 @@ Main Color: #47b76f
 Main Font: Poppins, Muli 
 =======================*/
 
+@import url("libraries/bootstrap.min.css");
+@import url("libraries/linea-basic.css");
+@import url("libraries/fontawesome-all.min.css");
+@import url("libraries/owl.carousel.min.css");
+@import url("libraries/owl.theme.default.min.css");
+@import url("libraries/basic.css");
 
 /*======================/
 	  Page-1 Basic
@@ -218,6 +224,10 @@ span, a, a:hover {
 .logo {
   padding: 15px 15px;
   width: 80px;
+}
+
+.toggle-white {
+  color: #000 !important;
 }
 
 .logo-title {
@@ -851,3 +861,271 @@ body::-webkit-scrollbar-thumb {
   background-color: #f89722;
   outline: 1px solid slategrey;
 }
+
+/*Model Seettings*/
+
+.model-img {
+  width: 147px;
+  height: 143px;
+  border-radius: 100%;
+-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.model-back {
+  background: url(img/g.png);
+  background-color: #fff;
+  background-size: contain;
+}
+
+.model-wrapper {
+  /*background: #00000038;*/
+  color: #fff;
+}
+
+.model-wrapper button {
+  color: #fff;
+}
+
+.model-wrapper h6 {
+  font-size: 1.6em;
+  margin-top: 8em;
+  margin-bottom: 0.7em;
+}
+
+.model-wrapper p {
+  font-size: 13px;
+  margin-bottom: 10em;
+}
+
+.model-wrapper p b {
+  color: #f89722;
+}
+
+.model-contact i{
+  font-size: 16px;
+  padding-left: 0.8em;
+  margin-bottom: 1em;
+}
+
+
+/*Media Queries*/
+
+@media only screen and (max-width: 320px) {
+
+.logo img {
+  width: 85%;
+}
+
+#myNav {
+  text-align: center; 
+  background: white;
+  color: black;
+}
+
+.logo-title {
+  margin-left: 0;
+  font-size: 22px;
+}
+
+.full-screen h4 {
+  padding-top: 4em;
+  font-size: 1.6em;
+}
+
+.full-screen h1 {
+  font-size: 2.5em;
+  letter-spacing: 0 !important;
+  padding-bottom: 0.6em;
+}
+
+.footer p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.support ul li {
+  font-size: 12px;
+}
+
+.support-email {
+  text-align: center !important;
+  margin-top: 10px;
+} 
+
+#pentest,#audit,#special{
+  margin-left: 0;
+  margin-top: 10px;
+}
+
+.product-items {
+  margin-left: 10px;
+  margin-top: 3em;
+}
+/*End here*/
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .logo img {
+  width: 85%;
+}
+
+#myNav {
+  text-align: center; 
+  background: white;
+  color: black;
+}
+
+.logo-title {
+  margin-left: 0;
+  font-size: 22px;
+}
+
+.full-screen h4 {
+  padding-top: 4em;
+  font-size: 1.6em;
+}
+
+.full-screen h1 {
+  font-size: 2.5em;
+  letter-spacing: 0 !important;
+  padding-bottom: 0.6em;
+}
+
+.footer p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.support ul li {
+  font-size: 12px;
+}
+
+.support-email {
+  text-align: center !important;
+  margin-top: 10px;
+}
+
+#pentest,#audit,#special{
+  margin-left: 0;
+  margin-top: 10px;
+}
+
+.product-items {
+  margin-left: 10px;
+  margin-top: 3em;
+} 
+/*End here*/
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 540px) {
+  .logo img {
+  width: 100%;
+}
+
+
+#myNav {
+  text-align: center; 
+  background: white;
+  color: black;
+}
+
+.logo-title {
+  margin-left: 0;
+  font-size: 30px;
+}
+
+.full-screen h4 {
+  padding-top: 4em;
+  font-size: 1.6em;
+}
+
+.full-screen h1 {
+  font-size: 2.5em;
+  letter-spacing: 0 !important;
+  padding-bottom: 0.6em;
+}
+
+.footer p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.support ul li {
+  font-size: 12px;
+}
+
+.support-email {
+  text-align: center !important;
+  margin-top: 10px;
+} 
+#pentest,#audit,#special{
+  margin-left: 0;
+  margin-top: 10px;
+}
+
+.product-items {
+  margin-left: 10px;
+  margin-top: 3em;
+} 
+
+
+/*End here*/
+
+}
+
+@media only screen and (min-width: 541px) and (max-width: 767px) {
+
+.logo-title {
+  margin-left: 0;
+  font-size: 35px;
+}
+
+#myNav {
+  text-align: center; 
+  background: white;
+  color: black;
+}
+
+.full-screen h4 {
+  padding-top: 4em;
+  font-size: 1.6em;
+}
+
+.full-screen h1 {
+  font-size: 2.3em;
+  letter-spacing: 0 !important;
+  padding-bottom: 0.6em;
+}
+
+.footer p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.support ul li {
+  font-size: 12px;
+}
+
+.support-email {
+  text-align: center !important;
+  margin-top: 10px;
+} 
+
+#pentest,#audit,#special{
+  margin-left: 0;
+  margin-top: 10px;
+}
+
+.product-items {
+  margin-left: 10px;
+  margin-top: 3em;
+} 
+
+/*End here*/
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {}
